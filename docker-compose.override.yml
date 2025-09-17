@@ -1,0 +1,16 @@
+services:
+  cryptography-api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+    volumes:
+      - ./Cryptography.API/appsettings.Development.json:/app/appsettings.Development.json:ro
+    ports:
+      - "8080:8080"
+      - "8081:8081"  # HTTPS port for development
+
+  sqlserver:
+    environment:
+      - SA_PASSWORD=Cryptography@123
+    ports:
+      - "1433:1433"
