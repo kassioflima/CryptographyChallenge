@@ -420,4 +420,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ---
 
-**Desenvolvido com ❤️ usando C# .NET 9**
+**Desenvolvido com C# .NET 9**
+
+- **Desenvolvedor**: [Kássio Fernandes Lima]
+- **Email**: [kassioflima@gmail.com]
